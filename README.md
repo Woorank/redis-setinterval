@@ -24,16 +24,16 @@ This function returns an instance of `RedisInterval`.
 
 ### `RedisInterval`
 
-#### `setInterval(interval)`
+#### `.setInterval(interval)`
 
 Changes the interval time. This is stored in Redis. Only has to be executed in one instance to change it for all of them.
 
 * `interval`: the new required interval time.
 
-#### `reset()`
+#### `.reset()`
 
 Reset the current lock so it can be acquired immediately again and `func` will be executed immediately. Again, there is no guarantee the function will execute in the same worker that initiated the reset command
 
-#### `cancel()`
+#### `.cancel()`
 
 Cancels the interval.

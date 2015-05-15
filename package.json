@@ -1,5 +1,5 @@
 {
-  "name": "@woorank/redis-setinterval",
+  "name": "redis-setinterval",
   "version": "0.0.1",
   "description": "setInterval for scalable applications",
   "main": "./lib",
