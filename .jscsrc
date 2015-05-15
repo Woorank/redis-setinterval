@@ -1,0 +1,27 @@
+{
+  "preset": "crockford",
+  "esnext": true,
+
+  "disallowDanglingUnderscores": null,
+
+  "disallowSpacesInNamedFunctionExpression": null,
+  "disallowSpacesInFunctionDeclaration": null,
+  "requireLineFeedAtFileEnd": true,
+  "maximumLineLength": {
+    "value": 80,
+    "allowComments": true,
+    "allowRegex": true
+  },
+  "requireCurlyBraces": [
+   "else",
+   "for",
+   "while",
+   "do",
+   "try",
+   "catch"
+  ],
+  "requireMultipleVarDecl": null,
+  "disallowMultipleVarDecl" : "exceptUndefined",
+  "validateIndentation": 2
+}
+
