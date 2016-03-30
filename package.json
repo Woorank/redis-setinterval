@@ -1,6 +1,6 @@
 {
   "name": "redis-setinterval",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "setInterval for scalable applications",
   "main": "./lib",
   "scripts": {
